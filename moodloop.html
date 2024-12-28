@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Thêm CSS của widget -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://moodloop.vercel.app/moodloop-widget.css">
+</head>
+
+<body>
+    <div id="moodloop-widget-container"></div>
+
+    <!-- Script widget -->
+    <script src="https://moodloop.vercel.app/moodloop-widget.iife.js"></script>
+
+    <script>
+        MoodloopWidget.init({
+            selector: '#moodloop-widget-container',
+            userName: 'Kevin',
+            tenantId: 'tenantXYZ'
+        });
+    </script>
+</body>
+
+</html>
